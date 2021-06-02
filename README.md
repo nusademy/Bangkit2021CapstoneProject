@@ -33,33 +33,27 @@ Can you imagine is just like Gojek that connect driver and passenger we also do 
 
 
 
-**Table of Contents**
-
-[TOCM]
-
-[TOC]
-
-#Nusademy Workflow
-#Cloud Computing
+# Nusademy Workflow
+# Cloud Computing
 Nusademy uses Google Cloud Platform as its cloud infrastructure. The following is Nusademy's cloud architecture:
 ![](https://github.com/nusademy/Bangkit2021CapstoneProject/raw/main/Cloud-Computing/Nusademy%20Cloud%20Architecure%20Design.png)
 ## Services used
-###App Engine
+### App Engine
 App Engine is used to deploy Backend API applications from Nusademy. we deploy api backend application using Standard Environment and nodejs runtime. Details about deploying to App Engine can be found in the following Backend API repository link <https://github.com/nusademy/nusademy-backend-api>.
-###Cloud Run
+### Cloud Run
 Cloud Run is used to deploy the Webhook Machine Learning API application from Nusademy. This application uses the python programming language to carry out the learning process and provide API services. Details about deploying to Cloud Run can be found in the following Webhook ML repository link <https://github.com/nusademy/webhook-ml>.
-###Storage Bucket
+### Storage Bucket
 The Storage Bucket is used to accommodate files and directories on the App Engine service, Cloud Build logs and artifacts, accommodate Nusademy landing page files <https://github.com/nusademy/landing_page> , and accommodate several important files used by the Nusademy Application.
-###Load Balancing Services
+### Load Balancing Services
 HTTP(S) Load Balancing Services is used to create a custom landing page web service from Storage Bucket. HTTP(S) Load Balancing Services will direct traffic to the Storage Bucket so that clients can access the html files that are there. This HTTP(S) Load Balancing Services uses the Storage Bucket backend and HTTP(S) frontend services. The nusademy landing page can be accessed at the following link <https://nusademy.id>
-###Cloud Build
+### Cloud Build
 Cloud Build is used to perform Continuous Integration and Continuous Delivery (CI/CD) on Backend API, Webhook ML API, and Landing Page applications. here we automate processes from deploy to App Engine, Cloud Run, and rsync processes from buckets used to host landing pages. Configuration details can be found in the cloudbuild.yaml file in each of the application's repos.
-###Cloud DNS
+### Cloud DNS
 Cloud DNS is used for record management from the nusademy.id domain. Each domain record of an application running on our Google Cloud Platform is linked to a subdomain of Cloud DNS.
-###Cloud SQL
+### Cloud SQL
 Cloud SQL is used as a Database service for the Nusademy API Backend. The Nusademy backen API uses the Postgre SQL version 13.
 
-#Android App User
+# Android App User
 ## Features
 - Feature A;
 - Feature B;
@@ -67,7 +61,7 @@ Cloud SQL is used as a Database service for the Nusademy API Backend. The Nusade
 
 Details about the Android App User can be found on the following github repository link <https://github.com/nusademy/android-dev>.
 
-#Android App School
+# Android App School
 ## Features
 - Feature A;
 - Feature B;
@@ -75,7 +69,7 @@ Details about the Android App User can be found on the following github reposito
 
 Details about the Android App School can be found on the following github repository link <https://github.com/nusademy/android-school-app-dev>.
 
-#Machine Learning
+# Machine Learning
 ## Features
 - Feature A;
 - Feature B;
@@ -83,7 +77,7 @@ Details about the Android App School can be found on the following github reposi
 
 Details about the Machine Learning can be found on the following github repository link <https://github.com/nusademy/webhook-ml>.
 
-#Importat Link
+# Importat Link
 Dataset Link:  <https://www.kaggle.com/datasnaek/mbti-type>
 
 Deployed Link: 
@@ -112,4 +106,4 @@ Github Repo Link:
 
 Academic Paper Link: **Comming Soon**
 
-#End
+# End
