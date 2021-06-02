@@ -1,7 +1,115 @@
 # Bangkit2021CapstoneProject
-Public repositories when developing Nusademy (Backend, Android, and ML with NLP)
+Public repository for Bangkit Academy 2021 Capstone Project Submission.
 
-We have change our plan to using just one repository in this capstone project. The decision is we made some repositories to implement CI/CD for API, ML, and Android App itself to easier manage and collaborate.
+**Team ID        :** B21-CAP0000
+**Selected theme    :** National Identity & Character Building
+**Mentor        :** Trisna Gelar Abdillah
+**Member         : **
+Rachvika Cindy Gayatri [Github Link](https://github.com/andreasabipermana)
+Ahmad Tomi Sholikin [Github Link](https://github.com/andreasabipermana)
+Andreas Abi Permana [Github Link](https://github.com/andreasabipermana)
+Matin Muhith [Github Link](https://github.com/matinmuhith)
+Muhammad Nanda Jabar Rozaq [Github Link](https://github.com/muhnandajr)
+Libby Lisandra [Github Link](https://github.com/andreasabipermana)
 
-In this repository we create 3 branch which are Main Branch (Cloud Architecture), Master Branch (Backend API App), and Android Branch (Nusademy App).
-Click into our profile to see details what we build in this capstone project from repository prespective. Cheers, Nusademy Tech Team
+
+# Nusademy
+![](https://github.com/nusademy/)
+
+:#1 App Solutions of Indonesia Fundamental Educational Problems
+
+
+## Backgrounder
+
+Nusademy is an education ecosystem that connects the best talent in Indonesia into school to solve educational inequality caused by unequal distribution of teachers, low reading interest and passion discovery. We are using chatbots to identify the passion of students and give books recommendations that can improve their ability to develop their potential.
+Can you imagine is just like Gojek that connect driver and passenger we also do the same to connect best talent or teacher into school and give supporting things that need in Indonesian education
+
+
+## Features
+
+- Helps identify young Indonesian’s Passion and Career Possibility with Passion Identifier Chatbot;
+- Connecting Platform for Teachers and Schools Throughout Indonesia. with Android based App;
+- Giving solutions to users with lack of interests in Reading with Narration Book & Video Recommendations **(Coming Soon)**;
+
+
+
+**Table of Contents**
+
+[TOCM]
+
+[TOC]
+
+#Nusademy Workflow
+#Cloud Computing
+Nusademy uses Google Cloud Platform as its cloud infrastructure. The following is Nusademy's cloud architecture:
+![](https://github.com/nusademy/Bangkit2021CapstoneProject/raw/main/Cloud-Computing/Nusademy%20Cloud%20Architecure%20Design.png)
+## Services used
+###App Engine
+App Engine is used to deploy Backend API applications from Nusademy. we deploy api backend application using Standard Environment and nodejs runtime. Details about deploying to App Engine can be found in the following Backend API repository link <https://github.com/nusademy/nusademy-backend-api>.
+###Cloud Run
+Cloud Run is used to deploy the Webhook Machine Learning API application from Nusademy. This application uses the python programming language to carry out the learning process and provide API services. Details about deploying to Cloud Run can be found in the following Webhook ML repository link <https://github.com/nusademy/webhook-ml>.
+###Storage Bucket
+The Storage Bucket is used to accommodate files and directories on the App Engine service, Cloud Build logs and artifacts, accommodate Nusademy landing page files <https://github.com/nusademy/landing_page> , and accommodate several important files used by the Nusademy Application.
+###Load Balancing Services
+HTTP(S) Load Balancing Services is used to create a custom landing page web service from Storage Bucket. HTTP(S) Load Balancing Services will direct traffic to the Storage Bucket so that clients can access the html files that are there. This HTTP(S) Load Balancing Services uses the Storage Bucket backend and HTTP(S) frontend services. The nusademy landing page can be accessed at the following link <https://nusademy.id>
+###Cloud Build
+Cloud Build is used to perform Continuous Integration and Continuous Delivery (CI/CD) on Backend API, Webhook ML API, and Landing Page applications. here we automate processes from deploy to App Engine, Cloud Run, and rsync processes from buckets used to host landing pages. Configuration details can be found in the cloudbuild.yaml file in each of the application's repos.
+###Cloud DNS
+Cloud DNS is used for record management from the nusademy.id domain. Each domain record of an application running on our Google Cloud Platform is linked to a subdomain of Cloud DNS.
+###Cloud SQL
+Cloud SQL is used as a Database service for the Nusademy API Backend. The Nusademy backen API uses the Postgre SQL version 13.
+
+#Android App User
+## Features
+- Feature A;
+- Feature B;
+- Feature C;
+
+Details about the Android App User can be found on the following github repository link <https://github.com/nusademy/android-dev>.
+
+#Android App School
+## Features
+- Feature A;
+- Feature B;
+- Feature C;
+
+Details about the Android App School can be found on the following github repository link <https://github.com/nusademy/android-school-app-dev>.
+
+#Machine Learning
+## Features
+- Feature A;
+- Feature B;
+- Feature C;
+
+Details about the Machine Learning can be found on the following github repository link <https://github.com/nusademy/webhook-ml>.
+
+#Importat Link
+Dataset Link:  <https://www.kaggle.com/datasnaek/mbti-type>
+
+Deployed Link: 
+
+| ** Solutions** | **Link ** |
+| :------------ | :------------ |
+|  User and Teacher App (.apk) | **Comming Soon**  |
+|   School App (.apk) | **Comming Soon**  |
+|  Notebooks |  <https://colab.research.google.com/drive/1VQiiGNxneu42VCTr8kh7v93o9FT1nmpM?usp=sharing>  |
+|  Web API Nusademy |  <https://api.nusademy.id> |
+|  Webhook API |  <https://webhook.nusademy.id> |
+|   Landing Page| <https://nusademy.id>  |
+
+
+Github Repo Link: 
+
+| ** Solutions** | **Link ** |
+| :------------ | :------------ |
+|  Public Git Repository Nusademy | <https://github.com/nusademy> |
+|  API Repository | <https://github.com/nusademy/nusademy-backend-api> |
+|  Machine Learning Webhook | <https://github.com/nusademy/webhook-ml> |
+|  Android School App | <https://github.com/nusademy/android-school-app-dev> |
+|  Android Basic User and Teacher App  | <https://github.com/nusademy/android-dev>  |
+|  Landing Page Repository | <https://github.com/nusademy/landing_page>  |
+|  Architecture Nusademy | <https://github.com/nusademy/Bangkit2021CapstoneProject> |
+
+Academic Paper Link: **Comming Soon**
+
+#End
