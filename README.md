@@ -1,16 +1,16 @@
 # Bangkit2021CapstoneProject
 Public repository for Bangkit Academy 2021 Capstone Project Submission.
 
-**Team ID        :** B21-CAP0000
-**Selected theme    :** National Identity & Character Building
-**Mentor        :** Trisna Gelar Abdillah
-**Member         : **
-Rachvika Cindy Gayatri [Github Link](https://github.com/andreasabipermana)
-Ahmad Tomi Sholikin [Github Link](https://github.com/andreasabipermana)
-Andreas Abi Permana [Github Link](https://github.com/andreasabipermana)
-Matin Muhith [Github Link](https://github.com/matinmuhith)
-Muhammad Nanda Jabar Rozaq [Github Link](https://github.com/muhnandajr)
-Libby Lisandra [Github Link](https://github.com/andreasabipermana)
+**Team ID        :** B21-CAP0000  
+**Selected theme    :** National Identity & Character Building 
+**Mentor        :** Trisna Gelar Abdillah  
+**Member         : **  
+Rachvika Cindy Gayatri [Github Link]()  
+Ahmad Tomi Sholikin [Github Link](https://github.com/AhmadTomi)  
+Andreas Abi Permana [Github Link](https://github.com/andreasabipermana)  
+Matin Muhith [Github Link](https://github.com/matinmuhith)  
+Muhammad Nanda Jabar Rozaq [Github Link](https://github.com/muhnandajr)  
+Libby Lisandra [Github Link](https://github.com/libbylisandra)  
 
 
 # Nusademy
