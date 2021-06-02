@@ -4,7 +4,7 @@ Public repository for Bangkit Academy 2021 Capstone Project Submission.
 **Team ID        :** B21-CAP0000  
 **Selected theme    :** National Identity & Character Building 
 **Mentor        :** Trisna Gelar Abdillah  
-**Member         : **  
+**Member         :**  
 Rachvika Cindy Gayatri [Github Link]()  
 Ahmad Tomi Sholikin [Github Link](https://github.com/AhmadTomi)  
 Andreas Abi Permana [Github Link](https://github.com/andreasabipermana)  
@@ -14,7 +14,7 @@ Libby Lisandra [Github Link](https://github.com/libbylisandra)
 
 
 # Nusademy
-![](https://github.com/nusademy/)
+![](https://github.com/nusademy/Bangkit2021CapstoneProject/raw/main/logo/logo.png)
 
 :#1 App Solutions of Indonesia Fundamental Educational Problems
 
@@ -82,7 +82,7 @@ Dataset Link:  <https://www.kaggle.com/datasnaek/mbti-type>
 
 Deployed Link: 
 
-| ** Solutions** | **Link ** |
+| **Solutions** | **Link** |
 | :------------ | :------------ |
 |  User and Teacher App (.apk) | **Comming Soon**  |
 |   School App (.apk) | **Comming Soon**  |
@@ -94,7 +94,7 @@ Deployed Link:
 
 Github Repo Link: 
 
-| ** Solutions** | **Link ** |
+| **Solutions** | **Link** |
 | :------------ | :------------ |
 |  Public Git Repository Nusademy | <https://github.com/nusademy> |
 |  API Repository | <https://github.com/nusademy/nusademy-backend-api> |
