@@ -53,6 +53,18 @@ Cloud DNS is used for record management from the nusademy.id domain. Each domain
 ### Cloud SQL
 Cloud SQL is used as a Database service for the Nusademy API Backend. The Nusademy backen API uses the Postgre SQL version 13.
 
+## Cloud Architecture Description
+### Cloud IAM
+Because Machine Learning Dev and Android Dev don't need infrastructure on Google Cloud, therefore for IAM members only cloud engineers, namely c2031998@bangkit.academy and c2031998@bangkit.academy.
+### Cloud DNS
+We use Cloud DNS to connect Google Cloud with the nusademy.id domain which is used for the landing page. Then we created a subdomain api.nusademy.id which was used for the backend api and webhook.nusademy.id which was used for the webhook machine learning.
+### API Backend Infrastucture
+For the backend infrastructure we created on github for the repository with the link https://github.com/nusademy/nusademy-backend-api . Then we create CLoud SQL using Postgree SQL for the database with name nusademy. Then we also create a Cloud Storage with name nusademy used to store app.yaml. Then create Continuous Integration and Continuous Development using Cloud Build after it is deployed on App Engine.
+###	Webhook ML Infrastucture
+For Machine Learning we create datasets and train datasets outside Google Cloud and store them in a repository with the link https://github.com/nusademy/webhook-ml . Then we connect to Cloud Build for Continuous Integration and Continuous Development after it is deployed on Cloud RUN.
+###	Landing Page Infrastucture
+Then for the landing page infrastructure, we put the source code in the repository with the link https://github.com/nusademy/landing_page . Then we connect to Cloud Build for Continuous Integration and Continuous Development after that it is stored in Cloud Storage nusademy.id. Then connected to the domain using load balancing.
+
 # Android App User
 ## Features
 - Feature A;
