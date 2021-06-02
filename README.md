@@ -2,10 +2,10 @@
 Public repository for Bangkit Academy 2021 Capstone Project Submission.
 
 **Team ID        :** B21-CAP0000  
-**Selected theme    :** National Identity & Character Building 
+**Selected theme    :** National Identity & Character Building  
 **Mentor        :** Trisna Gelar Abdillah  
 **Member         :**  
-Rachvika Cindy Gayatri [Github Link]()  
+Rachvika Cindy Gayatri [Github Link](https://github.com/rachvika18)  
 Ahmad Tomi Sholikin [Github Link](https://github.com/AhmadTomi)  
 Andreas Abi Permana [Github Link](https://github.com/andreasabipermana)  
 Matin Muhith [Github Link](https://github.com/matinmuhith)  
