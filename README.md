@@ -21,8 +21,9 @@ Libby Lisandra [Github Link](https://github.com/libbylisandra)
 
 ## Backgrounder
 
-Nusademy is an education ecosystem that connects the best talent in Indonesia into school to solve educational inequality caused by unequal distribution of teachers, low reading interest and passion discovery. We are using chatbots to identify the passion of students and give books recommendations that can improve their ability to develop their potential.
-Can you imagine is just like Gojek that connect driver and passenger we also do the same to connect best talent or teacher into school and give supporting things that need in Indonesian education
+Indonesia was ranked 60th of 61 countries in terms of reading interest. Unequal distribution of teachers and lack of teachers welfare is one of the biggest problems in our country. We know that teachers play a big role in producing the quality of their graduates. If we can't have the best teachers and the best education, we can’t guarantee that we will have talented graduates. From that we come to solve those problems. 
+Nusademy is an ecosystem platform that provides a new way of learning for Indonesia's young generation. Nusademy connects the best talent in Indonesia into school to solve educational inequality caused by unequal distribution of teachers, low reading interest and passion discovery. We are using chatbots to identify the passion of students and give books recommendations that can improve their ability to develop their potential. Can you imagine is just like Gojek that connect driver and passenger we also do the same to connect best talent or teacher into school and give supporting things that need in Indonesian education
+
 
 
 ## Features
@@ -105,6 +106,26 @@ Details about the Android App School can be found on the following github reposi
 - Job Recommendation based on user's passion;
 
 Details about the Machine Learning can be found on the following github repository link <https://github.com/nusademy/webhook-ml>.
+
+# Web API Android Application
+## Users Type
+- Admin;
+- Basic User;
+- Top Talent;
+- Teacher;
+- School Manager;
+
+## Features
+- User Management
+- Teacher and Top Talent Advanced Profile
+- School Information, Class, and Subject Management
+- Connect Top Talent into School (Invitation and Approval)
+- Connect Teacher into School (Invitation and Approval)
+- Teachers and Top Talent Job Vacancy
+- Book Narration Videos
+- Donation
+
+Details about the Machine Learning can be found on the following github repository link <https://github.com/nusademy/nusademy-backend-api>.
 
 # Importat Link
 Dataset Link:  <https://www.kaggle.com/datasnaek/mbti-type>
