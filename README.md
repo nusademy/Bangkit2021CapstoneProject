@@ -66,26 +66,38 @@ For Machine Learning we create datasets and train datasets outside Google Cloud 
 Then for the landing page infrastructure, we put the source code in the repository with the link https://github.com/nusademy/landing_page . Then we connect to Cloud Build for Continuous Integration and Continuous Development after that it is stored in Cloud Storage nusademy.id. Then connected to the domain using load balancing.
 
 # Android App User
-## Features
-- Feature A;
-- Feature B;
-- Feature C;
+## Features Basic User
+- User Registration;
+- Login;
+- Access Chabot Passion Identifier;
+- Access Video Book Narration;
+
+## Features Teacher/Top Talent
+- User Registration;
+- Login;
+- Access Chabot Passion Identifier;
+- Access Video Book Narration;
+- Request Teaching into School (Temporary and Guest Request);
+- Reject/Approve Teaching Invitation by School;
 
 Details about the Android App User can be found on the following github repository link <https://github.com/nusademy/android-dev>.
 
 # Android App School
 ## Features
-- Feature A;
-- Feature B;
-- Feature C;
+- User Registration;
+- Login;
+- Add and Edit School Profil;
+- School Management: Class and Subjects;
+- Invite Temporary Teacher into School;
+- Invite Guest Teacher into School;
+- Reject/Approve Teaching Request by Teacher;
 
 Details about the Android App School can be found on the following github repository link <https://github.com/nusademy/android-school-app-dev>.
 
 # Machine Learning
 ## Features
-- Feature A;
-- Feature B;
-- Feature C;
+- Passion Identifier using MBTI Datasets based on users input;
+- Job Recommendation based on user's passion;
 
 Details about the Machine Learning can be found on the following github repository link <https://github.com/nusademy/webhook-ml>.
 
