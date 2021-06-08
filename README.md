@@ -33,7 +33,9 @@ Can you imagine is just like Gojek that connect driver and passenger we also do 
 
 
 
-# Nusademy Workflow
+# Nusademy App Workflow
+Nusademy Android Application Workflow
+# Nusademy Machine Learning Architecture
 # Cloud Computing
 Nusademy uses Google Cloud Platform as its cloud infrastructure. The following is Nusademy's cloud architecture:
 ![](https://github.com/nusademy/Bangkit2021CapstoneProject/raw/main/Cloud-Computing/Nusademy%20Cloud%20Architecure%20Design.png)
