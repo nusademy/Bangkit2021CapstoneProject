@@ -125,7 +125,7 @@ Details about the Machine Learning can be found on the following github reposito
 - Book Narration Videos
 - Donation
 
-Details about the Machine Learning can be found on the following github repository link <https://github.com/nusademy/nusademy-backend-api>.
+Details about the App API can be found on the following github repository link <https://github.com/nusademy/nusademy-backend-api>.
 
 # Importat Link
 Dataset Link:  <https://www.kaggle.com/datasnaek/mbti-type>
