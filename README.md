@@ -34,8 +34,11 @@ Can you imagine is just like Gojek that connect driver and passenger we also do 
 
 
 # Nusademy App Workflow
-Nusademy Android Application Workflow
+Nusademy Android Application using Retrofit Application to Connect with Backend API
+![](https://github.com/nusademy/Bangkit2021CapstoneProject/blob/main/logo/Android%20App%20Architecture.png)
 # Nusademy Machine Learning Architecture
+Passion and Job Recommendation using MBTI Datasets Architecture
+![](https://github.com/nusademy/Bangkit2021CapstoneProject/blob/main/logo/ML%20Architecture.png)
 # Cloud Computing
 Nusademy uses Google Cloud Platform as its cloud infrastructure. The following is Nusademy's cloud architecture:
 ![](https://github.com/nusademy/Bangkit2021CapstoneProject/raw/main/Cloud-Computing/Nusademy%20Cloud%20Architecure%20Design.png)
