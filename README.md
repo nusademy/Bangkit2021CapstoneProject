@@ -1,7 +1,7 @@
 # Bangkit2021CapstoneProject
 Public repository for Bangkit Academy 2021 Capstone Project Submission.
 
-**Team ID        :** B21-CAP0000  
+**Team ID        :** Capstone Team B21-CAP0289 
 **Selected theme    :** National Identity & Character Building  
 **Mentor        :** Trisna Gelar Abdillah  
 **Member         :**  
@@ -28,8 +28,8 @@ Can you imagine is just like Gojek that connect driver and passenger we also do 
 ## Features
 
 - Helps identify young Indonesian’s Passion and Career Possibility with Passion Identifier Chatbot;
-- Connecting Platform for Teachers and Schools Throughout Indonesia. with Android based App;
-- Giving solutions to users with lack of interests in Reading with Narration Book & Video Recommendations **(Coming Soon)**;
+- Connecting Platform for Teachers and Schools Throughout Indonesia with Android based App;
+- Giving solutions to users with lack of interests in Reading with Video Book Narrations;
 
 
 
