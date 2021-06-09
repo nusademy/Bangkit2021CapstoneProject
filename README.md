@@ -134,8 +134,8 @@ Deployed Link:
 
 | **Solutions** | **Link** |
 | :------------ | :------------ |
-|  User and Teacher App (.apk) | **Comming Soon**  |
-|   School App (.apk) | **Comming Soon**  |
+|  User and Teacher App (.apk) | [apk](https://github.com/nusademy/android-dev/releases/download/v0.1.0/app-release.apk)  |
+|   School App (.apk) | [apk](https://github.com/nusademy/android-school-app-dev/releases/download/v0.1.0/app-release.apk)  |
 |  Notebooks |  <https://colab.research.google.com/drive/1VQiiGNxneu42VCTr8kh7v93o9FT1nmpM?usp=sharing>  |
 |  Web API Nusademy |  <https://api.nusademy.id> |
 |  Webhook API |  <https://webhook.nusademy.id> |
@@ -154,6 +154,8 @@ Github Repo Link:
 |  Landing Page Repository | <https://github.com/nusademy/landing_page>  |
 |  Architecture Nusademy | <https://github.com/nusademy/Bangkit2021CapstoneProject> |
 
-Academic Paper Link: **Comming Soon**
+Academic Paper Link:
+[1] Machine Learning Approach to Personality Type Prediction Based on the Myers–Briggs Type Indicator® <https://www.mdpi.com/2414-4088/4/1/9/htm>   
+[2] Classifying and Generating Text from MBPT <http://web.stanford.edu/class/archive/cs/cs221/cs221.1192/2018/restricted/posters/dkedia/poster.pdf>   
 
 # End
